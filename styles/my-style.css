@@ -1,0 +1,153 @@
+body{
+	background-color: #D3D3D3; 
+	text-align: center;
+}
+
+
+.left-div {
+	display: flex;
+	float: left;
+	height: 700px;
+	width: 49.9%;
+    text-align: center;
+    align-items: center;
+}
+
+.right-div {
+	display: flex;
+	float: right;
+	height: 700px;
+    margin: auto; 
+	width: 49.9%;
+}
+
+.month-picker {
+    display: flex;
+	height: 300px;
+	width: 400px;
+    margin: 20%;
+    text-align: center;
+    align-items: center;
+}
+
+.jan {
+    display: table-cell;
+    height: 100px;
+	width: 100px;
+    text-align: center; 
+    align-items: center;
+    vertical-align: middle;
+    background-color: #ff6a00;
+}
+
+.feb {
+    display: flex;
+    height: 100px;
+	width: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: #025aff;
+}
+
+.mar {
+    display: table-cell;
+    height: 100px;
+	width: 100px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    background-color: #ff6a00;
+}
+
+.apr {
+    display: table-cell;
+    height: 100px;
+	width: 100px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    background-color: #025aff;
+}
+
+.may {
+    display: flex;
+    height: 100px;
+	width: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: #ff6a00;
+}
+
+.jun {
+    display: table-cell;
+    height: 100px;
+	width: 100px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    background-color: #025aff;
+}
+
+.jul {
+    display: table-cell;
+    height: 100px;
+	width: 100px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    background-color: #ff6a00;
+}
+
+.aug {
+    display: flex;
+    height: 100px;
+	width: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: #025aff;
+}
+
+.sep {
+    display: table-cell;
+    height: 100px;
+	width: 100px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    background-color: #ff6a00;
+}
+
+.oct {
+    display: table-cell;
+    height: 100px;
+	width: 100px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    background-color: #025aff;
+}
+
+.nov {
+    display: flex;
+    height: 100px;
+	width: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: #ff6a00;
+}
+
+.dec {
+    display: table-cell;
+    height: 100px;
+	width: 100px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    background-color: #025aff;
+}
+
+.my-border {
+	border: solid 1px #000;
+} 
+
+

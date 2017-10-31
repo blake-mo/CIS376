@@ -1,0 +1,86 @@
+body{
+    font-family: 'Aladin';font-size: 14px;
+	background-color: #D3D3D3; 
+	text-align: center;
+}
+
+
+.left-div {
+	display: flex;
+	float: left;
+	height: 500px;
+	width: 50%;
+    margin: auto;
+    flex-flow: column; 
+    text-align: center;
+    align-items: center;
+}
+
+.right-div {
+	display: flex;
+	float: right;
+	height: 500px;
+    margin: auto; 
+	width: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.month-picker {
+    display: flex;
+    flex-direction: row;
+	height: 300px;
+	width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.month-items {
+    height: 100px;
+	width: 100px;
+    text-align: center; 
+    align-items: center;
+    vertical-align: middle;
+    background-color: #a343d3;
+}
+
+#title {
+    display: block;
+    float: left;
+    clear: both; 
+    height: 75px;
+	width: 400px;
+    margin-top: 75px;
+    text-align: center; 
+    align-items: center;
+    vertical-align: middle;
+    background-color:#ffae00;
+}
+
+#console-box{
+  top:48px; 
+  right:48px;
+  height:400px;
+  width:300px;
+  margin-top: 60px;
+  margin-right: auto;
+    margin-left: auto;
+  background-color:#000;
+  color: #55ff55;
+  font-family: monospace;
+  padding:6px; 
+}
+
+.selected {
+  background-color: #59f442;
+  font-weight: bold; 
+}
+
+.my-border {
+	border: solid 1px #000;
+} 
+
+
